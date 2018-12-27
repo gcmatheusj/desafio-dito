@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Opens Sans', sans-serif;
+}
+
+.comprou {
+    display: flex;
+    justify-content: flex-start;
+    height: 40px
+}
+
+.comprou p {
+    margin-right: 10px;
+}
+
+#data {
+    padding: 3px 12px 3px 12px;
+    background-color: #E0E0E0;
+    border-radius: 50px 50px 50px 50px;
+    color: #9E9E9E;
+    margin-bottom: 10px; 
+    margin-top: 0;
+}
+
+#valor {
+    padding: 3px 12px 3px 12px;
+    background-color: #FDD835;
+    border-radius: 50px;
+    color: #FFF;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#local {
+    padding: 3px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.comprou-produto {
+    padding: 10px;
+    background-color: #E0E0E0;
+    width: 375px;
+    border-radius: 10px
+}
+
+.timeline {
+    margin: 0;
+}
+
+.timeline:before {
+    left: 0;
+}
+
+.entry .title {
+    width: 0;
+}
+
+.entry .title:before {
+    width: 12px;
+    height: 12px;
+    right: -12px;
+}
+
+.timeline--animate .entry .is-hidden {
+    visibility: visible;
+}
+
+.entry .body {
+    float: left;
+}
+
+table {
+    width: 375px;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    color: #616161;
+    font-weight: normal;
+}
+
+th, td {
+    padding: 5px 10px 5px 10px
+}
+
+table td, table th {
+    border: 0.140rem solid #BDBDBD;
+}
+
+table tr:first-child th {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:first-child, table tr th:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child, table tr th:last-child {
+    border-right: 0;
+}
