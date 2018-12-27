@@ -24,7 +24,7 @@ const Compras = props => {
                             compras.produtos.map((produto, key) => (
                                 <tr key={key}>
                                     <td width="70%">{produto.productName}</td>
-                                    <td width="30%">{produto.productPrice}</td>
+                                    <td width="30%">{produto.productPrice.toLocaleString("pt-br",{style:"currency",currency:"BRL"})}</td>
                                 </tr>
                             ))
                         }
